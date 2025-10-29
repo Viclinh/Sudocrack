@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "uvx",
+      "args": ["mcp-server-filesystem", "--path", "."],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": ["read_file", "list_directory"]
+    }
+  }
+}
